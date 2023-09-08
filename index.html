@@ -1,3 +1,5 @@
+<!--https://ambersanti1.github.io/Challenge-01/-->
+
 <!DOCTYPE html> <!--Specify it is an HTML document to browser-->
 <html lang="en-us"> <!--Indicates the language for the webpage-->
 
@@ -8,15 +10,15 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-    <h1>Hori<span class="seo">seo</span>n</h1>
+  <header> <!--Class selector was replaced by element-->
+    <nav> <!---nav was added to help people with disabilities-->
+    <h1>Hori<span id="seo">seo</span>n</h1> <!---div was deleted-->
       <ul>
         <li>
           <a href="#search-engine-optimization">Search Engine Optimization</a>
-        </li>
+        </li> 
         <li>
-          <a href="#online-reputation-management">Online Reputation Management</a>
+          <a href="#online-reputation-management">Online Reputation Management</a> 
         </li>
         <li>
           <a href="#social-media-marketing">Social Media Marketing</a>
@@ -24,10 +26,12 @@
       </ul>
     </nav>
   </header>
-  <div class="main-image"></div>
-  <main>
-    <section class="search-engine-optimization" 
-    id ="search-engine-optimization">
+  <div class="main-image"></div> <!--Changed the name of the class to make it clear when matching the styling source to the web live-->
+  <main> <!--class was replaced by element-->
+<!---Sections class was created to style the three sections-->
+<!--Alt attribute added to all images-->
+    <section class="sections" 
+    id ="search-engine-optimization"> <!--I added the id to make the link work-->
       <img src="./assets/images/search-engine-optimization.jpg" 
       alt = "Search engine optimization image"
       class="float-left"/>
@@ -38,7 +42,7 @@
         the right customers for your business.
       </p>
     </section>
-    <section class="online-reputation-management" id="online-reputation-management">
+    <section class="sections" id="online-reputation-management">
       <img src="./assets/images/online-reputation-management.jpg"
       alt = "Online reputation management image"
       class="float-right" />
@@ -49,7 +53,7 @@
         over what potential customers see when they search for your business.
       </p>
     </section>
-    <section class="social-media-marketing"
+    <section class="sections"
     id = "social-media-marketing">
       <img src="./assets/images/social-media-marketing.jpg"
       alt = "Social media marketing image"
@@ -63,7 +67,7 @@
     </section>
   </main>
   <div class="benefits">
-    <aside>
+    <aside> <!--I changed the div to aside to make the code clearer-->
       <h3>Lead Generation</h3>
       <img src="./assets/images/lead-generation.png" 
       alt = "Lead generation image"/>
@@ -91,7 +95,9 @@
       </p>
     </aside>
   </div>
-  <footer>
+
+<!--Headings were deleted to footer element-->
+  <footer> <!--To simplify the code and make it prettier I deleted the heading and paragraph part-->
     Made with ❤️️ by Horiseon &copy; 2023 Horiseon Social Solution Services, Inc.
   <footer>
 </body>
